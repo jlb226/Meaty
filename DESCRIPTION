@@ -1,0 +1,22 @@
+Package: Meaty
+Type: Package
+Title: Inventory Analytics Platform
+Version: 0.1.1
+Author: Jay Borthen
+Authors@R: person("Jay", "Borthen", email = "jayborthen@gmail.com", role = c("aut", "cre"))
+Description: This package is a concept design for an inventory web app
+Copyright: (c) 2021 You
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+ DT,
+ ggplot2,
+ shiny (>= 1.0.3),
+ shinyjs,
+ dplyr (>= 0.7.1),
+ shinydashboard (>= 0.6.1)
+Suggests: 
+ testthat (>= 1.0.2),
+RoxygenNote: 7.1.1
